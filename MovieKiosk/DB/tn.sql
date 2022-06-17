@@ -1,0 +1,21 @@
+  ORACLR_CONNECTION_DATA = 
+  (DESCRIPTION = 
+    (ADDRESS_LIST = 
+      (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC_FOR_XE)) 
+    ) 
+    (CONNECT_DATA = 
+      (SID = CLRExtProc) 
+      (PRESENTATION = RO) 
+    ) 
+  ) 
+
+ORACLR_CONNECTION_DATA =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = IPC)(KEY = EXTPROC1521))
+    )
+    (CONNECT_DATA =
+      (SID = CLRExtProc)
+      (PRESENTATION = RO)
+    )
+  )
